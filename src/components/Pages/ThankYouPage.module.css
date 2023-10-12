@@ -1,0 +1,35 @@
+.content {
+  width: 1374px;
+  height: 851px;
+  background-color: #f4f5f8;
+  margin: auto;
+  text-align: center;
+  padding: 260px;
+}
+
+.content h1 {
+  margin: auto;
+  color: #003c55;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.leftAlignedText {
+  text-align: left;
+}
+
+.submission {
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+}
+
+.formData {
+  width: 400px;
+  margin-left: 300px;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 10px;
+}

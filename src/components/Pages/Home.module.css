@@ -1,0 +1,145 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+}
+
+.content {
+  width: 1374px;
+  height: 851px;
+  background-color: #f4f5f8;
+  margin: auto;
+}
+
+.firstSection {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  padding-top: 232px;
+  padding-bottom: 90px;
+}
+
+.textLeft {
+  flex: 2;
+}
+
+.textLeft p {
+  color: #003c55;
+  font-family: "OpenSansRegular";
+  font-size: 80px;
+}
+
+.textStyle {
+  text-align: center;
+  vertical-align: text-top;
+  font-family: "OpenSansRegular";
+}
+
+.btnJoinUs {
+  text-align: center;
+}
+
+.button {
+  width: 15rem;
+  height: 3rem;
+  font-weight: bold;
+  color: #003c55;
+  background: #fcd400;
+  border: 1px solid #707070;
+  border: none;
+  border-radius: 1.5rem;
+  font-family: "OpenSans";
+}
+
+.secondSection {
+  text-align: center;
+}
+
+.parent {
+  display: flex;
+  flex-flow: row wrap;
+  background-color: #ffffff;
+  width: 434px;
+  height: 333px;
+  box-shadow: 6px 6px 6px #00000029;
+  gap: 15px;
+  padding: 15px;
+}
+
+.parent > * {
+  flex: 1 100%;
+}
+
+.parent1,
+.parent2,
+.parent3 {
+  display: flex;
+  gap: 15px;
+}
+
+.webContainer {
+  display: flex;
+  flex-direction: column;
+  height: 333px;
+  width: 434px;
+  padding: 15px;
+  box-shadow: 6px 6px 6px 0px #00000029;
+  background-color: white;
+
+  margin-right: 10px;
+}
+
+.firstRow {
+  display: flex;
+  justify-content: space-between;
+  height: 47px;
+  width: 100%;
+}
+
+.firstSquare {
+  height: 47px;
+  width: 127px;
+  background-color: #ff7700;
+}
+
+.secondSquare {
+  height: 47px;
+  width: 262px;
+  background-color: #003c55;
+}
+
+.secondRow {
+  height: 117px;
+  width: 100%;
+  margin-top: 15px;
+
+  background-color: #003c55;
+}
+
+.thirdRow {
+  display: flex;
+  justify-content: space-between;
+  height: 117px;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.firstSquareThirdRow {
+  height: 117px;
+  width: 123px;
+  background-color: #fcd400;
+}
+
+.secondSquareThirdRow {
+  height: 117px;
+  width: 123px;
+  background-color: #fcd400;
+}
+
+.thirdSquareThirdRow {
+  height: 117px;
+  width: 123px;
+  background-color: #fcd400;
+}
